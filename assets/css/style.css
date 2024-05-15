@@ -1,0 +1,109 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(to bottom, #3c77af, #123c72, #3c77af);
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .hero {
+    background-image: url("/assets/img/hero.jpg");
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 990px) {
+  #about-kanan {
+    justify-content: end;
+  }
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #f99538 !important;
+  border-bottom: #f99538;
+  border-style: solid;
+  border-bottom-width: 2px;
+}
+#active {
+  color: #f99538;
+  border-bottom: #f99538;
+  border-style: solid;
+  border-bottom-width: 2px;
+}
+
+.brand {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+.adjy {
+  overflow: hidden;
+  animation: typing 7s steps(150) infinite;
+  white-space: nowrap;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.card {
+  margin-top: 50px;
+  border-style: solid;
+  border-color: #123c72;
+  border-width: 5px;
+  border-radius: 10px;
+}
+.card-header {
+  color: #ffffff;
+  text-align: center;
+  background-color: #f99538;
+  border-bottom-color: #123c72 !important;
+  border-bottom: 5px;
+  border-bottom-style: solid;
+}
+
+.btn {
+  color: #ffffff !important;
+  background-color: #f99538;
+}
+.btn:hover {
+  background-color: #53a1eb;
+}
+
+.foto {
+  width: 100%;
+  border: #123c72;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 30px;
+}
