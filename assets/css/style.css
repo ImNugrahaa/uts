@@ -107,3 +107,8 @@ h5 {
   border-width: 5px;
   border-radius: 30px;
 }
+
+footer {
+  margin-top:200px;
+  background-color: #123c72;
+}
